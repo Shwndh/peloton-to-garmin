@@ -5,7 +5,7 @@ services:
     container_name: p2g
     image: philosowaffle/peloton-to-garmin:stable
     environment:
-      - TZ=America/Chicago
+      - TZ=America/New_York
     volumes:
       - ./configuration.local.json:/app/configuration.local.json
       - ./output:/app/output
