@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  p2g:
+  p2g-api:
     container_name: p2g
     image: philosowaffle/peloton-to-garmin:stable
     environment:
